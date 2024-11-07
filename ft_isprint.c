@@ -3,10 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: medayi    <medayi@student.42istanbul>      +#+  +:+       +#+        */
+/*   By: medayi <medayi@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 17:31:12 by medayi            #+#    #+#             */
-/*   Updated: 2024/11/07 17:31:12 by medayi           ###   ########.fr       */
+/*   Updated: 2024/11/07 19:55:42 by medayi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+int	ft_isalpha(int c)
+{
+	if (c > 32 && c < 126)
+		return (1);
+	return (0);
+}

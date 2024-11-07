@@ -3,10 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: medayi    <medayi@student.42istanbul>      +#+  +:+       +#+        */
+/*   By: medayi <medayi@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 17:31:12 by medayi            #+#    #+#             */
-/*   Updated: 2024/11/07 17:31:12 by medayi           ###   ########.fr       */
+/*   Updated: 2024/11/07 19:52:30 by medayi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+int ft_isdigit(int c)
+{
+    if(x >= 48 && x <= 57)
+        return(1);
+    return(0);
+}
