@@ -3,10 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: medayi    <medayi@student.42istanbul>      +#+  +:+       +#+        */
+/*   By: medayi <medayi@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 17:31:12 by medayi            #+#    #+#             */
-/*   Updated: 2024/11/07 17:31:12 by medayi           ###   ########.fr       */
+/*   Updated: 2024/11/07 20:22:19 by medayi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+size_t	ft_strlen(const char *s)
+{
+	int	i;
+
+	i = 0;
+	while (s[i])
+		i++;
+	return (i);
+}

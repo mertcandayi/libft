@@ -3,10 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: medayi    <medayi@student.42istanbul>      +#+  +:+       +#+        */
+/*   By: medayi <medayi@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 17:31:12 by medayi            #+#    #+#             */
-/*   Updated: 2024/11/07 17:31:12 by medayi           ###   ########.fr       */
+/*   Updated: 2024/11/07 20:19:51 by medayi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+int	ft_toupper(int c)
+{
+	if (c >= 'a' && c <= 'z')
+		c -= 32;
+	return (c);
+}

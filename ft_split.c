@@ -6,7 +6,7 @@
 /*   By: medayi <medayi@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 17:31:12 by medayi            #+#    #+#             */
-/*   Updated: 2024/11/07 19:59:47 by medayi           ###   ########.fr       */
+/*   Updated: 2024/11/07 20:22:39 by medayi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ static void	init_size_list(t_size_list *a)
 char	**ft_split(char const *s, char c)
 {
 	char		**str;
-	t_size_list	a;	
+	t_size_list	a;
 
 	init_size_list(&a);
 	if (!s)
