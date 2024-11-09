@@ -6,7 +6,7 @@
 /*   By: medayi <medayi@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 17:31:54 by medayi            #+#    #+#             */
-/*   Updated: 2024/11/07 20:18:49 by medayi           ###   ########.fr       */
+/*   Updated: 2024/11/09 09:57:00 by medayi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,13 +15,6 @@
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdio.h>
-
-typedef struct s_size_list
-{
-	size_t	start;
-	size_t	end;
-	size_t	word;
-}	t_size_list;
 
 void		ft_bzero(void *s, size_t n);
 void		*ft_calloc(size_t nbyte, size_t size);
