@@ -6,11 +6,9 @@
 /*   By: medayi <medayi@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/28 00:48:39 by medayi            #+#    #+#             */
-/*   Updated: 2024/11/11 11:45:24 by medayi           ###   ########.fr       */
+/*   Updated: 2024/11/11 20:21:36 by medayi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 char	*ft_strrchr(const char *str, int x)
 {

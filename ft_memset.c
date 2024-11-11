@@ -6,12 +6,11 @@
 /*   By: medayi <medayi@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 23:07:20 by medayi            #+#    #+#             */
-/*   Updated: 2024/11/09 15:56:55 by medayi           ###   ########.fr       */
+/*   Updated: 2024/11/11 20:18:57 by medayi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 void	*ft_memset(void *ptr, int c, size_t num)
 {
